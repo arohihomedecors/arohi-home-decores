@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7b3f32">
+  <meta name="description" content="Handmade home décor from Arohi Home Decore. Shop flower torans, floral hangings and decorative arrangements.">
+  <title>Arohi Home Decore | Handmade Home Décor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Arohi Home Decore home">
+      <span class="brand-mark" aria-hidden="true">✿</span>
+      <span><strong>Arohi Home Decore</strong><small data-i18n="tagline">Handmade with love</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop" data-i18n="navShop">Shop</a>
+      <a href="#custom" data-i18n="navCustom">Custom orders</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language">हिन्दी</button>
+      <a class="cart-link" href="#shop" data-i18n="navProducts">Products</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">HANDMADE • THOUGHTFUL • BEAUTIFUL</p>
+        <h1 data-i18n="heroTitle">Little details.<br><em>A warmer home.</em></h1>
+        <p class="hero-description" data-i18n="heroText">Discover handmade flower torans, floral hangings and cheerful accents for your home and celebrations.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#shop" data-i18n="browse">Browse collection</a>
+          <a class="text-link" href="#custom" data-i18n="customLink">Request a custom design ↗</a>
+        </div>
+        <p class="hero-note" data-i18n="heroNote">Made in small batches. Custom colours welcome.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Decorative floral illustration">
+        <div class="sun-disc"></div>
+        <div class="art-label"><span>AROHΙ</span><small>HOME • DECOR • LOVE</small></div>
+        <div class="flower flower-one">✿</div>
+        <div class="flower flower-two">✿</div>
+        <div class="flower flower-three">✿</div>
+        <div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="leaf leaf-three"></div>
+        <div class="art-caption" data-i18n="artCaption">A little joy for every doorway</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Store benefits">
+      <div><span>✿</span><p data-i18n="trust1">Handmade with care</p></div>
+      <div><span>⌂</span><p data-i18n="trust2">Made for your home</p></div>
+      <div><span>♡</span><p data-i18n="trust3">Custom designs available</p></div>
+    </section>
+
+    <section id="shop" class="shop-section section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="collectionEyebrow">THE COLLECTION</p><h2 data-i18n="shopTitle">Decorate with feeling</h2></div>
+        <p data-i18n="shopIntro">Browse our starter collection. Message us to confirm availability, delivery and your final total.</p>
+      </div>
+      <div id="productGrid" class="product-grid" aria-live="polite"></div>
+      <p class="price-note" data-i18n="priceNote">Prices shown are sample placeholders. Update them before publishing.</p>
+    </section>
+
+    <section id="custom" class="custom-section">
+      <div class="custom-flower" aria-hidden="true">✿</div>
+      <div class="custom-copy">
+        <p class="eyebrow" data-i18n="customEyebrow">MADE FOR YOU</p>
+        <h2 data-i18n="customTitle">Have a colour or design in mind?</h2>
+        <p data-i18n="customText">Tell us about your doorway, celebration or gift idea. We’ll discuss colours, size, price and delivery before confirming your order.</p>
+        <a id="customWhatsApp" class="button button-light" href="#contact" data-i18n="customButton">Ask about a custom order</a>
+      </div>
+    </section>
+
+    <section class="how-section section-wrap">
+      <p class="eyebrow" data-i18n="howEyebrow">SIMPLE & PERSONAL</p>
+      <h2 data-i18n="howTitle">How to order</h2>
+      <div class="steps">
+        <article><span>01</span><h3 data-i18n="step1Title">Choose a design</h3><p data-i18n="step1Text">Explore the catalogue and pick your favourite.</p></article>
+        <article><span>02</span><h3 data-i18n="step2Title">Message us</h3><p data-i18n="step2Text">Confirm stock, quantity, delivery fee and total on WhatsApp.</p></article>
+        <article><span>03</span><h3 data-i18n="step3Title">Pay and receive</h3><p data-i18n="step3Text">Use the verified UPI details we confirm, then we’ll arrange dispatch.</p></article>
+      </div>
+    </section>
+
+    <section class="payment-section">
+      <div class="payment-icon">₹</div>
+      <div><h2 data-i18n="paymentTitle">Easy UPI payment</h2><p data-i18n="paymentText">We’ll share our verified UPI ID or QR code after confirming your order total. Please check the recipient name before paying.</p></div>
+      <span class="payment-badge" data-i18n="paymentBadge">Pay after confirmation</span>
+    </section>
+
+    <section id="contact" class="contact-section section-wrap">
+      <div><p class="eyebrow" data-i18n="contactEyebrow">LET’S TALK</p><h2 data-i18n="contactTitle">A little décor goes a long way.</h2><p data-i18n="contactText">Questions about a product, delivery or a custom design? We’d love to hear from you.</p></div>
+      <div class="contact-card">
+        <p class="contact-card-label" data-i18n="contactCardLabel">CONTACT AROHI</p>
+        <p><strong data-i18n="whatsappLabel">WhatsApp</strong><br><span id="phoneDisplay">[Add your WhatsApp number]</span></p>
+        <p><strong data-i18n="upiLabel">UPI</strong><br><span id="upiDisplay">[Add your verified UPI ID]</span></p>
+        <a id="contactWhatsApp" class="button button-primary button-full" href="#shop" data-i18n="contactButton">Message us on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="#home"><span class="brand-mark">✿</span><span><strong>Arohi Home Decore</strong><small data-i18n="tagline">Handmade with love</small></span></a>
+    <p data-i18n="footerText">Thoughtful handmade décor for everyday moments and special celebrations.</p>
+    <small>© <span id="year"></span> Arohi Home Decore</small>
+  </footer>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
